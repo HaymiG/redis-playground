@@ -1,0 +1,20 @@
+{
+  "name": "redis-playground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "rate-limiter": "node rate-limiter/rateLimiter.js",
+    "leaderboard": "node leaderboard/leaderboard.js",
+    "cache": "node cache/cache.js",
+    "lock": "node distributed-lock/lock.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "redis": "^6.3.0"
+  }
+}
