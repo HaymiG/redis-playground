@@ -4,10 +4,10 @@ Four small projects for learning Redis with Node.js. Each project is one file in
 
 | # | Project | Folder | Redis feature |
 |---|---------|--------|---------------|
-| 1 | Fixed-window rate limiter | [`01-rate-limiter`](./01-rate-limiter) | `INCR`, `EXPIRE` |
-| 2 | Leaderboard | [`02-leaderboard`](./02-leaderboard) | Sorted sets (`ZADD`, `ZREVRANGE`, `ZREVRANK`) |
-| 3 | Cache in front of a slow call | [`03-cache`](./03-cache) | `SET ... EX`, `GET`, `TTL` |
-| 4 | Distributed lock | [`04-distributed-lock`](./04-distributed-lock) | `SET ... NX EX`, Lua script |
+| 1 | Fixed-window rate limiter | [`01-rate-limiter`](./rate-limiter) | `INCR`, `EXPIRE` |
+| 2 | Leaderboard | [`02-leaderboard`](./leaderboard) | Sorted sets (`ZADD`, `ZREVRANGE`, `ZREVRANK`) |
+| 3 | Cache in front of a slow call | [`03-cache`](./cache) | `SET ... EX`, `GET`, `TTL` |
+| 4 | Distributed lock | [`04-distributed-lock`](./distributed-lock) | `SET ... NX EX`, Lua script |
 
 ## Requirements
 
