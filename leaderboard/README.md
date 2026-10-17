@@ -28,7 +28,7 @@ The script:
 ## Run
 
 ```bash
-node 02-leaderboard/leaderboard.js
+node leaderboard/leaderboard.js
 ```
 
 ## Expected output

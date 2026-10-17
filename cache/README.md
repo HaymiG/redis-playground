@@ -38,7 +38,7 @@ Return the value
 ## Run
 
 ```bash
-node 03-cache/cache.js
+node cache/cache.js
 ```
 
 ## Expected output
